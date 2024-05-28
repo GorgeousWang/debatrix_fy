@@ -55,7 +55,11 @@ using ChatGPT as the backbone:
 ```Shell
 python run_batch.py -s -l chatgpt -r test example debatrix 0 1 3
 ```
-fy: if show No model named 'tenacity'，please 'pip install tenacity'
+fy: if show No model named 'tenacity''，please 
+```shell
+pip install tenacity
+pip install tiktoken numpy langchain
+```
 
 After Debatrix finishes judging the debate, the summary score and winner verdict
 will be printed on the screen. You can find debate records in
